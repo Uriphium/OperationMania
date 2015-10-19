@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B3D0B94B1BD5703A008D9055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B94A1BD5703A008D9055 /* AppDelegate.swift */; };
-		B3D0B94D1BD5703A008D9055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B94C1BD5703A008D9055 /* ViewController.swift */; };
 		B3D0B9501BD5703A008D9055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D0B94E1BD5703A008D9055 /* Main.storyboard */; };
 		B3D0B9521BD5703A008D9055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D0B9511BD5703A008D9055 /* Assets.xcassets */; };
 		B3D0B9551BD5703A008D9055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D0B9531BD5703A008D9055 /* LaunchScreen.storyboard */; };
@@ -44,6 +43,14 @@
 		B3D0B9AB1BD57045008D9055 /* LocationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B98C1BD57045008D9055 /* LocationOperation.swift */; settings = {ASSET_TAGS = (); }; };
 		B3D0B9AC1BD57045008D9055 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B98D1BD57045008D9055 /* Operation.swift */; settings = {ASSET_TAGS = (); }; };
 		B3D0B9AD1BD57045008D9055 /* URLSessionTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B98E1BD57045008D9055 /* URLSessionTaskOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9B91BD573A9008D9055 /* AlertOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9B11BD573A9008D9055 /* AlertOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9BA1BD573A9008D9055 /* BackgroundObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9B21BD573A9008D9055 /* BackgroundObserver.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9BE1BD573A9008D9055 /* WebpageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9B61BD573A9008D9055 /* WebpageOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9BF1BD573A9008D9055 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9B71BD573A9008D9055 /* NetworkObserver.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9C21BD5792C008D9055 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9C11BD5792C008D9055 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9C41BD57F64008D9055 /* DownloadEarthquakesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9C31BD57F64008D9055 /* DownloadEarthquakesOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9C71BD57F8D008D9055 /* GetEarthquakesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9C51BD57F8D008D9055 /* GetEarthquakesOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		B3D0B9CA1BD583A0008D9055 /* ParseEarthquakesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B9C91BD583A0008D9055 /* ParseEarthquakesOperation.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +66,6 @@
 /* Begin PBXFileReference section */
 		B3D0B9471BD57039008D9055 /* OperationMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OperationMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D0B94A1BD5703A008D9055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3D0B94C1BD5703A008D9055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D0B94F1BD5703A008D9055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D0B9511BD5703A008D9055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D0B9541BD5703A008D9055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,6 +105,14 @@
 		B3D0B98D1BD57045008D9055 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		B3D0B98E1BD57045008D9055 /* URLSessionTaskOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionTaskOperation.swift; sourceTree = "<group>"; };
 		B3D0B9AE1BD57070008D9055 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3D0B9B11BD573A9008D9055 /* AlertOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertOperation.swift; sourceTree = "<group>"; };
+		B3D0B9B21BD573A9008D9055 /* BackgroundObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundObserver.swift; sourceTree = "<group>"; };
+		B3D0B9B61BD573A9008D9055 /* WebpageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebpageOperation.swift; sourceTree = "<group>"; };
+		B3D0B9B71BD573A9008D9055 /* NetworkObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		B3D0B9C11BD5792C008D9055 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B3D0B9C31BD57F64008D9055 /* DownloadEarthquakesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadEarthquakesOperation.swift; sourceTree = "<group>"; };
+		B3D0B9C51BD57F8D008D9055 /* GetEarthquakesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetEarthquakesOperation.swift; sourceTree = "<group>"; };
+		B3D0B9C91BD583A0008D9055 /* ParseEarthquakesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseEarthquakesOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				B3D0B94A1BD5703A008D9055 /* AppDelegate.swift */,
-				B3D0B94C1BD5703A008D9055 /* ViewController.swift */,
+				B3D0B9C11BD5792C008D9055 /* TableViewController.swift */,
+				B3D0B9C31BD57F64008D9055 /* DownloadEarthquakesOperation.swift */,
+				B3D0B9C51BD57F8D008D9055 /* GetEarthquakesOperation.swift */,
+				B3D0B9C91BD583A0008D9055 /* ParseEarthquakesOperation.swift */,
 				B3D0B94E1BD5703A008D9055 /* Main.storyboard */,
 				B3D0B9511BD5703A008D9055 /* Assets.xcassets */,
 				B3D0B9531BD5703A008D9055 /* LaunchScreen.storyboard */,
@@ -164,6 +181,7 @@
 		B3D0B96A1BD57045008D9055 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				B3D0B9B01BD573A9008D9055 /* App Operations */,
 				B3D0B96B1BD57045008D9055 /* Conditions */,
 				B3D0B97B1BD57045008D9055 /* Convenience Extentions */,
 				B3D0B9811BD57045008D9055 /* Observers */,
@@ -237,6 +255,17 @@
 				B3D0B98E1BD57045008D9055 /* URLSessionTaskOperation.swift */,
 			);
 			path = Operations;
+			sourceTree = "<group>";
+		};
+		B3D0B9B01BD573A9008D9055 /* App Operations */ = {
+			isa = PBXGroup;
+			children = (
+				B3D0B9B11BD573A9008D9055 /* AlertOperation.swift */,
+				B3D0B9B21BD573A9008D9055 /* BackgroundObserver.swift */,
+				B3D0B9B71BD573A9008D9055 /* NetworkObserver.swift */,
+				B3D0B9B61BD573A9008D9055 /* WebpageOperation.swift */,
+			);
+			path = "App Operations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,13 +369,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D0B9941BD57045008D9055 /* NegatedCondition.swift in Sources */,
+				B3D0B9BF1BD573A9008D9055 /* NetworkObserver.swift in Sources */,
 				B3D0B9AB1BD57045008D9055 /* LocationOperation.swift in Sources */,
 				B3D0B9971BD57045008D9055 /* OperationErrors.swift in Sources */,
 				B3D0B99F1BD57045008D9055 /* Dictionary+Operations.swift in Sources */,
 				B3D0B99B1BD57045008D9055 /* RemoteNotificationCondition.swift in Sources */,
-				B3D0B94D1BD5703A008D9055 /* ViewController.swift in Sources */,
 				B3D0B99D1BD57045008D9055 /* UserNotificationCondition.swift in Sources */,
 				B3D0B9931BD57045008D9055 /* MutuallyExclusive.swift in Sources */,
+				B3D0B9BE1BD573A9008D9055 /* WebpageOperation.swift in Sources */,
 				B3D0B9951BD57045008D9055 /* NoCancelledDependencies.swift in Sources */,
 				B3D0B99C1BD57045008D9055 /* SilentCondition.swift in Sources */,
 				B3D0B9901BD57045008D9055 /* CloudCondition.swift in Sources */,
@@ -359,6 +389,7 @@
 				B3D0B98F1BD57045008D9055 /* CalendarCondition.swift in Sources */,
 				B3D0B9A71BD57045008D9055 /* OperationQueue.swift in Sources */,
 				B3D0B94B1BD5703A008D9055 /* AppDelegate.swift in Sources */,
+				B3D0B9C71BD57F8D008D9055 /* GetEarthquakesOperation.swift in Sources */,
 				B3D0B9AA1BD57045008D9055 /* GroupOperation.swift in Sources */,
 				B3D0B9A11BD57045008D9055 /* NSOperation+Operations.swift in Sources */,
 				B3D0B9A51BD57045008D9055 /* TimeoutObserver.swift in Sources */,
@@ -367,10 +398,15 @@
 				B3D0B9AD1BD57045008D9055 /* URLSessionTaskOperation.swift in Sources */,
 				B3D0B9991BD57045008D9055 /* PhotosCondition.swift in Sources */,
 				B3D0B9A31BD57045008D9055 /* BlockObserver.swift in Sources */,
+				B3D0B9C21BD5792C008D9055 /* TableViewController.swift in Sources */,
+				B3D0B9C41BD57F64008D9055 /* DownloadEarthquakesOperation.swift in Sources */,
 				B3D0B9AC1BD57045008D9055 /* Operation.swift in Sources */,
 				B3D0B9911BD57045008D9055 /* HealthCondition.swift in Sources */,
 				B3D0B9961BD57045008D9055 /* OperationCondition.swift in Sources */,
 				B3D0B99E1BD57045008D9055 /* CKContainer+Operations.swift in Sources */,
+				B3D0B9CA1BD583A0008D9055 /* ParseEarthquakesOperation.swift in Sources */,
+				B3D0B9B91BD573A9008D9055 /* AlertOperation.swift in Sources */,
+				B3D0B9BA1BD573A9008D9055 /* BackgroundObserver.swift in Sources */,
 				B3D0B9A81BD57045008D9055 /* BlockOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
